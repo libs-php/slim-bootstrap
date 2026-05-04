@@ -1,0 +1,16 @@
+{
+    "name": "libs-php/slim-bootstrap",
+    "description": "Slim bootstrap library",
+    "version": "2.99.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LibsPhp\\SlimBootstrap\\": "src/"
+        },
+        "files": ["src/callback.php"]
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
